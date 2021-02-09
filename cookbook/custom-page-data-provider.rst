@@ -90,6 +90,8 @@ is implemented, which filters the pages for a specific author:
                 - '@sulu_document_manager.default_session'
                 - '@sulu_page.reference_store.content'
                 - '%sulu_document_manager.show_drafts%'
+                - '%sulu_security.permissions%'
+                
             tags:
                 - { name: 'sulu.smart_content.data_provider', alias: 'author_pages' }
 
